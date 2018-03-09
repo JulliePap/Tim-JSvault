@@ -1,0 +1,54 @@
+body {
+	background-image: url("../images/background.jpg");	
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#main-container {
+	box-shadow: 5px 10px #333;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 15px;
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#greenflash {
+	width: 250px;
+	background-color: green;
+	height: 20px;
+	float: left;
+}
+#redflash {
+	width: 250px;
+	background-color: red;
+	height: 20px;
+	float: right;
+}
+#main-container p {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	background-color: black;
+}
+.button {
+	background-color: #555555;
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-left: 12px;
+}
+#numbercontainer {
+	height: 65px;
+}
+#correctCount {
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+#wrongCount {
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
